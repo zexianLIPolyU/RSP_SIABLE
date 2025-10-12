@@ -20,7 +20,7 @@ We present a MATLAB implementation of the Recursive State Preparation (RSP) and 
 | Number of qubits | Script | 3 | 4 | 5 | 6 | 7 | n |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | QSD | [qiskit](https://quantum.cloud.ibm.com/docs/en/api/qiskit/qiskit.transpiler.passes.UnitarySynthesis) | 20 | 100 | 444 | 1868 | 7660 | $(23/48)\times4^n - (3/2)\times 2^n + (4/3)$ |
-| Block-ZXZ | [test_siable_CNOT](https://github.com/zexianLIPolyU/siable/blob/main/test_siable_CNOT.m) | 19 | 95 | 423 | 1783 | 7319 | $(22/48)\times4^n - (3/2)\times 2^n + (5/3)$ |
+| Block-ZXZ | [siable](https://github.com/zexianLIPolyU/siable/blob/main/test_siable_CNOT.m) | 19 | 95 | 423 | 1783 | 7319 | $(22/48)\times4^n - (3/2)\times 2^n + (5/3)$ |
 | Shende's lower bound | - | 14 | 61 | 252 | 1020 | 4091 | $\lceil (1/4)\times(4^n - 3n - 1) \rceil$ |
 | **SIABLE for full-rank matrix** <br> **(Proposed method)** | [siable](https://github.com/zexianLIPolyU/siable/blob/main/test_siable_CNOT.m) | **9** | **45** | **205** | **877** | **3629** | $(11/48)\times 4^n - 2^n + (7/3)$ |
 | **Lower bounds**| - | 6 | 29 | 125 | 508 | 2043 | $\lceil (1/8)\times4^n - (3/4)\times n \rceil$
