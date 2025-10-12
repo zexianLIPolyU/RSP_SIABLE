@@ -1,4 +1,4 @@
-# siable
+# RSP
 The Matlab (QCLAB) implementation of recursive state preparation (RSP) and single ancilla block encoding protocol (SIABLE) using as less CNOT gates as possible. 
 
 
@@ -12,7 +12,7 @@ The Matlab (QCLAB) implementation of recursive state preparation (RSP) and singl
 | **RSP** **(Proposed method)** | [test_state_preparation](https://github.com/zexianLIPolyU/siable/blob/main/test_state_preparation.mlx) | 1 | **3** | **7** | **18** | **867** | **29627** | $11/12$ |
 | **Lower bounds**| - | 1 | 2 | 5 | 12 | 505 | 16373 | $1/2$
 
-
+# siable
 
 ## Comparison of the number of C-NOT gates between the single ancilla block encoding protocol (SIABLE) for general $2^{n-1}\times 2^{n-1}$ full-rank matrix and other unitary synthesis protocol and bounds in an $n$-qubit system.
 
