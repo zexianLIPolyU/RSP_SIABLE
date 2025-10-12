@@ -10,7 +10,7 @@ We present a MATLAB implementation of the Recursive State Preparation (RSP) and 
 | PB | [qclib](https://github.com/qclib/qclib) | 1 | 4 | 9 | 26 | 919 | 38813 | $23/24$ |
 | Isometry | [qiskit](https://quantum.cloud.ibm.com/docs/api/qiskit/qiskit.circuit.library.StatePreparation) | 1 | 4 | 11 | 26 | 1013 | 32752 | $23/24$ |
 | LRSP | [qclib](https://github.com/qclib/qclib) | 1 | 4 | 9 | 21 | 913 | 30999 | $23/24$ |
-| **RSP** **(Proposed method)** | [rsp](https://github.com/zexianLIPolyU/siable/blob/main/test_state_preparation.mlx) | 1 | **3** | **7** | **18** | **867** | **29627** | $11/12$ |
+| **RSP** **(Proposed method)** | [rsp](https://github.com/zexianLIPolyU/siable/blob/main/test_state_preparation.m) | 1 | **3** | **7** | **18** | **867** | **29627** | $11/12$ |
 | **Lower bounds**| - | 1 | 2 | 5 | 12 | 505 | 16373 | $1/2$
 
 # Single Ancilla Block Encoding Protocol (SIABLE)
