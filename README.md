@@ -1,6 +1,7 @@
-# RSP
+# RSP & SIABLE
 The Matlab (QCLAB) implementation of recursive state preparation (RSP) and single ancilla block encoding protocol (SIABLE) using as less CNOT gates as possible. 
 
+## Recursive State Preparation (RSP)
 
 ## Comparison of the number of C-NOT gates between proposed recursive state preparation method (RSP) and other state preparation algorithms. 
 
@@ -12,9 +13,9 @@ The Matlab (QCLAB) implementation of recursive state preparation (RSP) and singl
 | **RSP** **(Proposed method)** | [test_state_preparation](https://github.com/zexianLIPolyU/siable/blob/main/test_state_preparation.mlx) | 1 | **3** | **7** | **18** | **867** | **29627** | $11/12$ |
 | **Lower bounds**| - | 1 | 2 | 5 | 12 | 505 | 16373 | $1/2$
 
-# siable
+## Single Ancilla Block Encoding Protocol (SIABLE)
 
-## Comparison of the number of C-NOT gates between the single ancilla block encoding protocol (SIABLE) for general $2^{n-1}\times 2^{n-1}$ full-rank matrix and other unitary synthesis protocol and bounds in an $n$-qubit system.
+### Comparison of the number of C-NOT gates between the single ancilla block encoding protocol (SIABLE) for general $2^{n-1}\times 2^{n-1}$ full-rank matrix and other unitary synthesis protocol and bounds in an $n$-qubit system.
 
 | Number of qubits | Script | 3 | 4 | 5 | 6 | 7 | n |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -23,3 +24,8 @@ The Matlab (QCLAB) implementation of recursive state preparation (RSP) and singl
 | Shende's lower bound | - | 14 | 61 | 252 | 1020 | 4091 | $\lceil (1/4)\times(4^n - 3n - 1) \rceil$ |
 | **SIABLE for full-rank matrix** <br> **(Proposed method)** | [test_siable_CNOT](https://github.com/zexianLIPolyU/siable/blob/main/test_siable_CNOT.m) | **9** | **45** | **205** | **877** | **3629** | $(11/48)\times 4^n - 2^n + (7/3)$ |
 | **Lower bounds**| - | 6 | 29 | 125 | 508 | 2043 | $\lceil (1/8)\times4^n - (3/4)\times n \rceil$
+
+
+### Encoding images 
+
+
