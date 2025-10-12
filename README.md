@@ -1,3 +1,4 @@
+# Recursive State Preparation (RSP) and Single Ancilla Block Encoding (SIABLE)
 We present a MATLAB implementation of the Recursive State Preparation (RSP) and Single Ancilla Block Encoding (SIABLE) protocols, designed to use as few CNOT gates as possible. This implementation is built upon the [QCLAB](https://github.com/QuantumComputingLab/qclabs) framework.
 
 
