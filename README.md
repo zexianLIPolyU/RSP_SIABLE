@@ -5,7 +5,7 @@ We present a MATLAB implementation of the Recursive State Preparation (RSP) and 
 Please download the [QCLAB](https://github.com/QuantumComputingLab/qclabs) and [siable](https://github.com/zexianLIPolyU/siable/tree/main/siable) files first.
 
 
-# Recursive State Preparation (RSP)
+# 1. Recursive State Preparation (RSP)
 
 ## Comparison of the number of C-NOT gates between proposed recursive state preparation method (RSP) and other state preparation algorithms. 
 
@@ -17,7 +17,7 @@ Please download the [QCLAB](https://github.com/QuantumComputingLab/qclabs) and [
 | **RSP** **(Proposed method)** | [rsp](https://github.com/zexianLIPolyU/siable/blob/main/test_state_preparation.m) | 1 | **3** | **7** | **18** | **867** | **29627** | $11/12$ |
 | **Lower bounds**| - | 1 | 2 | 5 | 12 | 505 | 16373 | $1/2$
 
-# Single Ancilla Block Encoding Protocol (SIABLE)
+# 2. Single Ancilla Block Encoding Protocol (SIABLE)
 
 ## Comparison of the number of C-NOT gates between the single ancilla block encoding protocol (SIABLE) for general $2^{n-1}\times 2^{n-1}$ full-rank matrix and other unitary synthesis protocol and bounds in an $n$-qubit system.
 
