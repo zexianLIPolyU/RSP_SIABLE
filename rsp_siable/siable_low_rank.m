@@ -1,4 +1,4 @@
-function [circuit, subnormalization, info] = siable2(Matrix, rank, logging, offset)
+function [circuit, subnormalization, info] = siable_low_rank(Matrix, rank, logging, offset)
 % SIABLE -- Single Ancilla Block Encodings for low-rank matrix
 % INPUT
 % -----
@@ -15,6 +15,7 @@ function [circuit, subnormalization, info] = siable2(Matrix, rank, logging, offs
 % Copyright LI Zexian 2025. 
 %
 % Reference: 
+% Improving C-NOT Counts for Quantum State Preparation and Block Encoding via Diagonal Matrix Migration
 % Minimal universal two-qubit controlled-NOT-based circuits 
 % Beyond quantum Shannon decomposition: Circuit construction for n-qubit
 % gates based on block-ZXZ decomposition 
@@ -166,7 +167,7 @@ function [circuit, global_phase, info, Delta] = ciruict_isometry( V, k, n, loggi
                     [controls, target, controlState] = decouple_control_pair2(i, corresponding_arrays(s), n) ; 
                     Gk = MCG( target, decouple_onebit(0, [state(i + 1),state(corresponding_arrays(s) + 1)]), controls, controlState, Gk ) ; 
                     if logging
-                        if n >= 5
+                        if n >= 6
                             % Reference: PHYS. REV. APPLIED 24, 044030 (2025)
                             info.nCNOT = info.nCNOT + 12*n - 32 ; 
                         else
